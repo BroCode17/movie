@@ -1,5 +1,5 @@
 import React from 'react'
-import Results from './components/Results'
+import Results from '../components/Results'
 const API_KEY = process.env.API_KEY
 const  HomePage = async ({searchParams}) => {
   const genre  = searchParams.genre || 'fetchTrending'
